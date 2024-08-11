@@ -31,7 +31,7 @@ export function Home() {
 
     return (filteredProduct ? 
         <>
-    <Link to="/" className="absolute top-[3%] right-[8%] px-4 py-2 bg-zinc-200 rounded-full text-sm font-semibold" >Home</Link>
+    <Link to="/testing-Project/" className="absolute top-[3%] right-[8%] px-4 py-2 bg-zinc-200 rounded-full text-sm font-semibold" >Home</Link>
     
     <Nav></Nav>
     <div className="w-[85%] bg-zinc-100 h-full flex flex-wrap overflow-y-auto">

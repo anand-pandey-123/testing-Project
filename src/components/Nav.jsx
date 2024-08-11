@@ -24,7 +24,7 @@ export function Nav() {
         {filteredCategory.map((c, index)=>{
             return (
                 <h2 key={index} className="w-[80%] flex items-center text-sm mb-2">
-                    <Link to={`/?category=${c}`} className="flex items-center">
+                    <Link to={`/testing-Project/?category=${c}`} className="flex items-center">
                         <span className="w-3 h-3 bg-zinc-400 rounded-full inline-block mr-3"></span>{c}
                     </Link>
                 </h2>
